@@ -1,2 +1,25 @@
-# interviews-study
-This repo contains information about all the interview process I've participated. What have been the concepts, works fields and project they were interested on.
+# Interview Feedback Repository
+
+This repository serves as a centralized hub for storing interview feedback and related information. Its primary objectives are to provide access to historical interview data for future reference and analysis, gather first-hand market data on software project developments, and contribute to a comprehensive data platform.
+
+## Purpose
+
+### Access to Historical Data
+
+By maintaining detailed records of interview feedback, including dates, locations, company details, and interviewers' feedback, this repository facilitates easy access to historical data. This allows for retrospection, trend analysis, and learning from past experiences, especially when exploring software project developments over time.
+
+### Market Data Insights
+
+The repository offers valuable insights into software project developments by capturing real-time feedback from interviews. This firsthand information provides a glimpse into emerging technologies, industry trends, and hiring practices, contributing to a better understanding of the software landscape.
+
+### Contribution to Data Platform
+
+As part of a larger data platform initiative, this repository contributes to building a comprehensive database of software-related information. By sharing interview feedback and related data, contributors enrich the platform with diverse perspectives, fostering collaboration and knowledge sharing within the community.
+
+## How to Contribute
+
+If you have participated in an interview, you're encouraged to contribute by adding your feedback document to the repository. Follow the provided template and ensure that sensitive information is excluded. Your contributions help enhance the repository's value and contribute to the broader goal of building a robust data platform.
+
+## License
+
+This project is licensed under the [Apache License](LICENSE).
