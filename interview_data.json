@@ -1,0 +1,49 @@
+{
+  "request": "Organize my interview document better.",
+  "response": {
+    "interviews": [
+      {
+        "date": "2024/06/04",
+        "place": "Buenos Aires, Argentina",
+        "company_site": "",
+        "area": "",
+        "recruiter": "",
+        "country": "Argentina",
+        "interviewer": "",
+        "position_applied": "",
+        "feedback": "",
+        "concepts": [],
+        "next_steps": "",
+        "notes": ""
+      },
+      {
+        "date": "2024/06/04",
+        "place": "Buenos Aires, Argentina",
+        "company_site": "",
+        "area": "",
+        "recruiter": "",
+        "country": "Argentina",
+        "interviewer": "",
+        "position_applied": "",
+        "feedback": "",
+        "concepts": [],
+        "next_steps": "",
+        "notes": ""
+      },
+      {
+        "date": "2024/06/07",
+        "place": "Delhi, India",
+        "company_site": "",
+        "area": "",
+        "recruiter": "",
+        "country": "India",
+        "interviewer": "",
+        "position_applied": "",
+        "feedback": "",
+        "concepts": [],
+        "next_steps": "",
+        "notes": ""
+      }
+    ]
+  }
+}
