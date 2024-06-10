@@ -1,49 +1,276 @@
 {
-  "request": "Organize my interview document better.",
-  "response": {
+  "title": "Interview Document",
+  "subtitle": "Allow organize concept, and interview pipelines for better performance."
+  "content": {
     "interviews": [
       {
-        "date": "2024/06/04",
-        "place": "Buenos Aires, Argentina",
-        "company_site": "",
-        "area": "",
-        "recruiter": "",
-        "country": "Argentina",
+        "id": "9d1b9f4a-5c3e-11ee-be56-0242ac120002",
+        "date": "2024/06/03",
+        "place": "Remote",
+        "company_site": "https://cloudshinetech.com",
+        "area": "Node.js",
+        "recruiter": "Lucila Etchepare",
+        "recruiter_linkedin": "https://www.linkedin.com/in/lucila-etchepare/",
+        "pipeline_steps": {"total_steps": 4, "pipeline": [{"step": 1 , "type": "SCREENING"}, {"step": 2 , "type": "TECHNICAL"}, {"step": 2 , "type": "CLIENT_PRESENTATION"}]},
+        "country": "UY",
+        "position_applied": "Backend Developer",
         "interviewer": "",
-        "position_applied": "",
+        "technical_interview": []
         "feedback": "",
-        "concepts": [],
-        "next_steps": "",
         "notes": ""
       },
       {
-        "date": "2024/06/04",
-        "place": "Buenos Aires, Argentina",
-        "company_site": "",
-        "area": "",
-        "recruiter": "",
-        "country": "Argentina",
+        "id": "a0aaf7b0-5c3e-11ee-be56-0242ac120002",
+        "date": "2024/06/03",
+        "place": "Remote",
+        "company_site": "https://blend.com",
+        "area": "Node.js",
+        "recruiter": "Elena Ohorodniichuk",
+        "recruiter_linkedin": "https://www.linkedin.com/in/elena-ohorodniichuk-bb4475161/",
+        "country": "USA",
+        "position_applied": "Backend Developer",
         "interviewer": "",
-        "position_applied": "",
+        "technical_interview": [],
+        "pipeline_steps": {"total_steps": 4, "pipeline": [{"step": 1 , "type": "SCREENING"}, {"step": 2 , "type": "TECHNICAL"}, {"step": 2 , "type": "CLIENT_PRESENTATION"}]},
         "feedback": "",
-        "concepts": [],
-        "next_steps": "",
         "notes": ""
       },
       {
-        "date": "2024/06/07",
-        "place": "Delhi, India",
-        "company_site": "",
-        "area": "",
-        "recruiter": "",
-        "country": "India",
-        "interviewer": "",
-        "position_applied": "",
+        "id": "a8b8c9e6-5c3e-11ee-be56-0242ac120002",
+        "date": "2024/06/05",
+        "place": "Remote",
+        "company_site": "https://bletsol.com",
+        "area": "Java, Node.js, React.js",
+        "recruiter_linkedin": "https://www.linkedin.com/in/karan-singh-01906b17a/",
+        "recruiter": "Karan Singh",
+        "country": "IND",
+        "position_applied": "Backend Developer",
+        "pipeline_steps": {"total_steps": 4, "pipeline": [{"step": 1 , "type": "SCREENING"}, {"step": 2 , "type": "TECHNICAL"}]},
+        "notes": "",
         "feedback": "",
-        "concepts": [],
-        "next_steps": "",
-        "notes": ""
+        "interviewer": "",
+        "technical_interview": [
+          {
+            "step": 1,
+            "concept": "Core Programming Concepts",
+            "subconcepts": [
+              {
+                "concept": "Design Patterns",
+                "categories": [
+                  {
+                    "category": "Creational Patterns",
+                    "descriptions": "Creational patterns provide various object creation mechanisms, offering flexibility and promoting reusability.",
+                    "examples": [
+                      {
+                        "topic_name": "Singleton",
+                        "desc": "Ensures a class only has one instance and provides a global access point to it.",
+                        "explanation": "The Singleton pattern is useful for creating objects that are expensive to create or need to be accessed globally throughout the application. It restricts object instantiation to a single instance and provides a controlled way to access it. This pattern promotes memory efficiency and simplifies access to the single instance."
+                      },
+                      {
+                        "topic_name": "Factory Method",
+                        "desc": "Defines an interface for creating objects but lets subclasses decide which class to instantiate.",
+                        "explanation": "The Factory Method pattern allows for centralizing object creation logic and deferring the concrete class selection to subclasses. This promotes loose coupling and makes it easier to introduce new object types without modifying existing code that uses the factory."
+                      },
+                      {
+                        "topic_name": "Builder",
+                        "desc": "Separates object construction from its representation, allowing for step-by-step object creation.",
+                        "explanation": "The Builder pattern is useful for creating complex objects with many optional parameters. It allows for constructing objects step-by-step and provides a clear and readable way to specify object configurations."
+                      },
+                      {
+                        "topic_name": "Prototype",
+                        "desc": "Creates new objects by cloning existing ones, promoting efficiency.",
+                        "explanation": "The Prototype pattern is useful for creating objects that are expensive to create or require complex initialization. By cloning existing objects, you can avoid the overhead of creating them from scratch."
+                      },
+                      {
+                        "topic_name": "Abstract Factory",
+                        "desc": "Provides an interface for creating families of related objects without specifying their concrete classes.",
+                        "explanation": "The Abstract Factory pattern is useful for creating families of related objects that belong to a specific product family. It promotes loose coupling and allows for easily switching between different product families without modifying the client code that uses the factory."
+                      }
+                    ]
+                  },
+                  {
+                    "category": "Structural Patterns",
+                    "descriptions": "Structural patterns focus on how classes and objects are composed to form larger structures and how to compose interfaces.",
+                    "examples": [
+                      {
+                        "topic_name": "Adapter",
+                        "desc": "Allows incompatible interfaces to work together by wrapping an object with an adapter interface.",
+                        "explanation": "The Adapter pattern allows for making incompatible interfaces work together. It wraps an object with an adapter class that provides a compatible interface for the client code."
+                      },
+                      {
+                        "topic_name": "Facade",
+                        "desc": "Provides a simplified interface to a complex system of classes.",
+                        "explanation": "The Facade pattern simplifies access to a complex system of classes by providing a single interface that hides the underlying complexity. This promotes loose coupling and makes the system easier to use."
+                      },
+                      {
+                        "topic_name": "Composite",
+                        "desc": "Treats a group of objects as a single object. Useful for hierarchical structures.",
+                        "explanation": "The Composite pattern treats a group of objects as a single object, allowing for composing hierarchical structures. This pattern is useful for representing part-whole relationships and performing operations on entire hierarchies."
+                      },
+                      {
+                        "topic_name": "Decorator",
+                        "desc": "Adds new functionalities to an object dynamically without altering its structure.",
+                        "explanation": "The Decorator pattern allows for adding new functionalities to an object dynamically without modifying its structure. This is achieved by wrapping the object with a decorator that provides the additional functionality."
+                      },
+                      {
+                        "topic_name": "Proxy",
+                        "desc": "Provides a surrogate or placeholder for another object to control access or add additional processing.",
+                        "explanation": "The Proxy pattern provides a surrogate object that controls access to the real object. This allows for additional functionalities like access control, security checks, or lazy loading."
+                      }
+                    ]
+                  },
+                  {
+                    "category": "Behavioral Patterns",
+                    "descriptions": "Behavioral patterns define communication mechanisms between objects and how they should interact to achieve their goals.",
+                    "examples": [
+                      {
+                        "topic_name": "Observer",
+                        "desc": "Defines a one-to-many dependency between a subject object and its observers. When the subject changes state, all its observers are notified.",
+                        "explanation": "The Observer pattern allows for defining a one-to-many dependency between objects. When a subject object (observable) changes its state, all its registered observer objects are notified automatically, enabling them to react to the change."
+                      },
+                      {
+                        "topic_name": "Strategy",
+                        "desc": "Defines an interface for interchangeable algorithms. Allows switching between different algorithms at runtime.",
+                        "explanation": "The Strategy pattern defines an interface for interchangeable algorithms. This allows for implementing different algorithms for the same operation and switching between them at runtime based on specific conditions. It promotes code flexibility and maintainability."
+                      },
+                      {
+                        "topic_name": "Template Method",
+                        "desc": "Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses. Promotes common behavior and allows customization.",
+                        "explanation": "The Template Method pattern defines the overall structure (skeleton) of an algorithm in an operation, allowing subclasses to implement specific steps without modifying the overall structure. This promotes code reuse and consistency while enabling customization for specific use cases."
+                      },
+                      {
+                        "topic_name": "Command",
+                        "desc": "Encapsulates a request as an object, allowing for parameterization of clients with different requests, queuing or logging of requests, and undo/redo functionality.",
+                        "explanation": "The Command pattern encapsulates a request as an object, allowing for various benefits. It enables parameterizing clients with different requests, queuing or logging requests for later execution, and even implementing undo/redo functionality."
+                      },
+                      {
+                        "topic_name": "Iterator",
+                        "desc": "Provides a way to access the elements of an object collection sequentially without exposing its underlying structure.",
+                        "explanation": "The Iterator pattern provides a way to access the elements of an object collection sequentially without exposing the internal structure of the collection. This promotes loose coupling and allows for implementing different ways to traverse collections."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "concept": "Stateful vs. Stateless Applications",
+                "explanation": "Stateful applications maintain session state on the server side, while stateless applications don't. Stateful applications require user data to be stored between requests, whereas stateless applications treat each request independently. Here's a breakdown of their pros and cons:\n\n**Stateful Applications:**\n\n* Pros: Can maintain user context and session data, useful for applications like shopping carts or personalized experiences.\n* Cons: More complex to manage due to state persistence, scalability can be challenging.\n\n**Stateless Applications:**\n\n* Pros: Easier to scale horizontally, simpler architecture, more fault-tolerant.\n* Cons: May require additional effort to manage user sessions or data persistence across requests."
+              },
+              {
+                "concept": "Kubernetes",
+                "topics": [
+                  {
+                    "topic_name": "Nodes",
+                    "desc": "The physical or virtual machines that run containerized applications in a Kubernetes cluster.",
+                    "explanation": "Nodes in a Kubernetes cluster are the worker machines that host containerized applications (Pods). They are responsible for running the containerized workloads and managing the lifecycle of the Pods assigned to them. Nodes can be physical servers or virtual machines managed by Kubernetes."
+                  },
+                  {
+                    "topic_name": "Pods",
+                    "desc": "The basic unit of deployment in Kubernetes. A Pod represents a group of one or more containers that are deployed and managed together.",
+                    "explanation": "Pods are the fundamental unit of deployment in Kubernetes. They represent a group of one or more containers that are logically grouped together and are meant to be deployed and scheduled on a Node. Pods share storage (volumes) and network resources, and they typically have a short lifespan."
+                  }
+                ]
+              },
+              {
+                "concept": "ACID Properties",
+                "topics": [
+                  {
+                    "topic_name": "Atomicity",
+                    "desc": "Ensures that a database transaction is treated as an indivisible unit. Either all changes succeed or none of them do.",
+                    "explanation": "Atomicity guarantees that a database transaction is an all-or-nothing operation. Either all the changes within the transaction are applied successfully, or none of them are. This ensures data consistency and prevents partial updates that could leave the database in an inconsistent state."
+                  },
+                  {
+                    "topic_name": "Consistency",
+                    "desc": "Maintains the data integrity of a database by ensuring that transactions bring the database from one valid state to another.",
+                    "explanation": "Consistency ensures that the database remains in a valid state after a transaction is completed. This involves enforcing data integrity rules and constraints to prevent invalid data from being stored."
+                  },
+                  {
+                    "topic_name": "Isolation",
+                    "desc": "Prevents concurrent transactions from interfering with each other and corrupting data.",
+                    "explanation": "Isolation ensures that concurrent transactions are executed independently and do not interfere with each other's data. This is achieved through locking mechanisms that prevent one transaction from reading or modifying data that is being used by another transaction."
+                  },
+                  {
+                    "topic_name": "Durability",
+                    "desc": "Guarantees that the changes made by a transaction are persisted to storage and will survive system failures.",
+                    "explanation": "Durability ensures that the changes made by a transaction are permanently written to the database storage and will not be lost even if a system crash or power outage occurs. This is typically achieved through techniques like transaction logging and write-ahead logging."
+                  }
+                ]
+              },
+              {
+                "concept": "Data Structures",
+                "topics": [
+                  {
+                    "topic_name": "Array List",
+                    "desc": "A resizable collection of elements that uses an array for efficient random access.",
+                    "explanation": "Array Lists are a dynamic data structure that stores a collection of elements in an array. They offer efficient random access (accessing elements by index) but can be less efficient for insertions and deletions in the middle of the list due to the need for shifting elements."
+                  },
+                  {
+                    "topic_name": "Hash Map",
+                    "desc": "A key-value store that uses a hash table for fast lookups based on a key.",
+                    "explanation": "Hash Maps are efficient data structures for storing key-value pairs. They use a hashing function to map keys to bucket locations, enabling very fast lookups based on the key. This makes them ideal for scenarios where frequent retrieval by key is needed."
+                  },
+                  {
+                    "topic_name": "Linked List",
+                    "desc": "A linear data structure where each element (node) contains data and a reference to the next node in the sequence.",
+                    "explanation": "Linked Lists are collections of elements where each element (node) holds data and a reference to the next element in the sequence. They are efficient for insertions and deletions at any point in the list but have slower random access compared to Array Lists."
+                  }
+                ]
+              },
+              {
+                "concept": "Maps (Key-Value Stores)",
+                "topics": [
+                  {
+                    "topic_name": "Performance Considerations",
+                    "desc": "Discusses the trade-offs between different map implementations based on access speed and memory usage.",
+                    "explanation": "The choice of a Map implementation depends on the specific use case and performance requirements. Hash Maps offer fast average access times but may have slower worst-case scenarios due to collisions. Other Map implementations like Tree Maps may provide guaranteed logarithmic access times but might have higher memory overhead."
+                  }
+                ]
+              },
+              {
+                "concept": "Object-Oriented Programming (OOP)",
+                "topics": [
+                  {
+                    "topic_name": "Polymorphism",
+                    "desc": "The ability for objects of different classes to respond to the same method call in different ways.",
+                    "explanation": "Polymorphism allows objects of different classes to share a method name but provide different implementations. This promotes code flexibility and enables writing generic code that can work with various object types.",
+                    "subcategories": [
+                      {
+                        "subtopic_name": "Inheritance",
+                        "desc": "A mechanism for creating new classes (subclasses) that inherit properties and behaviors from existing classes (superclasses).",
+                        "explanation": "Inheritance is a fundamental OOP concept that allows creating hierarchical relationships between classes. Subclasses inherit properties and methods from their superclass, promoting code reuse and extensibility."
+                      },
+                      {
+                        "subtopic_name": "Method Overloading",
+                        "desc": "Having multiple methods with the same name but different parameter lists within a class.",
+                        "explanation": "Method overloading allows defining multiple methods with the same name but different parameter lists. The specific method to be called is determined based on the provided arguments during runtime."
+                      },
+                      {
+                        "subtopic_name": "Method Overriding",
+                        "desc": "Redefining a method inherited from a superclass in a subclass to provide a specific implementation.",
+                        "explanation": "Method overriding allows subclasses to redefine methods inherited from their superclass. This enables customizing behavior for specific subclasses while maintaining the overall structure defined in the superclass."
+                      }
+                    ]
+                  },
+                  {
+                    "topic_name": "Encapsulation",
+                    "desc": "The concept of bundling data (attributes) and methods (operations) together within a class, protecting data from direct external access.",
+                    "explanation": "Encapsulation promotes data protection and modularity. By hiding data within a class and providing controlled access through methods, you ensure data integrity and prevent unintended modifications from outside the class."
+                  },
+                  {
+                    "topic_name": "Inheritance",
+                    "desc": "Discussed previously under Polymorphism (Inheritance subcategory).",
+                    "explanation": "Refer to the explanation provided under Polymorphism (Inheritance subcategory) for details on inheritance."
+                  },
+                  {
+                    "topic_name": "Abstraction",
+                    "desc": "The process of hiding implementation details and focusing on the interface (what the class does) rather than the how.",
+                    "explanation": "Abstraction allows developers to focus on the functionality provided by a class (what it does) without worrying about the underlying implementation details (how it does it). This promotes code reusability and maintainability."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
-    ]
-  }
+    }
 }
