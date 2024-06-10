@@ -205,15 +205,25 @@
                     "explanation": "Array Lists are a dynamic data structure that stores a collection of elements in an array. They offer efficient random access (accessing elements by index) but can be less efficient for insertions and deletions in the middle of the list due to the need for shifting elements."
                   },
                   {
-                    "topic_name": "Hash Map",
-                    "desc": "A key-value store that uses a hash table for fast lookups based on a key.",
-                    "explanation": "Hash Maps are efficient data structures for storing key-value pairs. They use a hashing function to map keys to bucket locations, enabling very fast lookups based on the key. This makes them ideal for scenarios where frequent retrieval by key is needed."
-                  },
-                  {
                     "topic_name": "Linked List",
                     "desc": "A linear data structure where each element (node) contains data and a reference to the next node in the sequence.",
                     "explanation": "Linked Lists are collections of elements where each element (node) holds data and a reference to the next element in the sequence. They are efficient for insertions and deletions at any point in the list but have slower random access compared to Array Lists."
-                  }
+                  },
+                  {
+                      "topic_name": "Hash Map",
+                      "desc": "A key-value store that uses a hash table for fast lookups based on a key.",
+                      "explanation": "Hash Maps are efficient data structures for storing key-value pairs. They use a hashing function to map keys to bucket locations, enabling very fast lookups based on the key. This makes them ideal for scenarios where frequent retrieval by key is needed."
+                    },
+                    {
+                      "topic_name": "Tree Map",
+                      "desc": "A key-value store that uses a balanced tree structure for sorted order.",
+                      "explanation": "Tree Maps are efficient for maintaining a sorted order of keys. They use a self-balancing binary search tree (such as a Red-Black tree) to ensure that operations like insertion, deletion, and lookup are logarithmic in time complexity. This makes them ideal for scenarios where ordered traversal of keys is required."
+                    },
+                    {
+                      "topic_name": "Linked Hash Map",
+                      "desc": "A key-value store that maintains insertion order of keys.",
+                      "explanation": "Linked Hash Maps are efficient for maintaining the order of elements as they are inserted. They combine the features of a hash table and a linked list to provide fast lookups based on the key, while also keeping track of the order in which keys were added. This makes them suitable for scenarios where iteration in insertion order is necessary."
+                    }
                 ]
               },
               {
