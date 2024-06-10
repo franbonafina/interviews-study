@@ -16,10 +16,6 @@ The repository offers valuable insights into software project developments by ca
 
 As part of a larger data platform initiative, this repository contributes to building a comprehensive database of software-related information. By sharing interview feedback and related data, contributors enrich the platform with diverse perspectives, fostering collaboration and knowledge sharing within the community.
 
-## How to Contribute
-
-If you have participated in an interview, you're encouraged to contribute by adding your feedback document to the repository. Follow the provided template and ensure that sensitive information is excluded. Your contributions help enhance the repository's value and contribute to the broader goal of building a robust data platform.
-
 ## License
 
 This project is licensed under the [Apache License](LICENSE).
