@@ -1,0 +1,65 @@
+{
+  "profiles": [
+    {
+      "company_name": "SiiRA",
+      "location": "Fully remote",
+      "employment_type": "Contract (full-time)",
+      "duration": "6-12 months",
+      "salary": {
+        "hourly_rate": 30,
+        "negotiable_up_to": 35
+      },
+      "start_date": "Flexible (as soon as possible)",
+      "roles": ["Backend Engineer"],
+      "description": "Highly skilled Back End Engineer to join a dynamic team at SiiRA, leading US-based platform connecting top-tier digital talent with innovative US companies.",
+      "requirements": {
+        "backend_experience": {
+          "languages": ["Golang (required)"],
+          "expertise": ["Database optimization", "Performance tuning", "Microservices architecture (familiar)"],
+          "concurrency": ["Multithreading", "Multitasking"],
+          "technologies": {
+            "bigquery": "Plus (not required)",
+            "nodejs": "Plus (not required)"
+          }
+        },
+        "skills": {
+          "problem_solving": true,
+          "analytical": true
+        }
+      },
+      "contact": {
+        "source": "Email from SiiRA recruiter" // Optional field for contact details
+      }
+    },
+    {
+      "company_name": "Allata",
+      "location": "Offices in US, India, and Argentina (flexible)",
+      "employment_type": "Full-time (details not provided)",
+      "duration": "Project-based (details not provided)",
+      "salary": "Not provided",
+      "start_date": "Not provided",
+      "roles": ["Data Engineer"],
+      "description": "Build data pipelines that implement a data-driven logic engine to determine physician pay based on location, CPT Codes, etc.",
+      "requirements": {
+        "backend_experience": {
+          "languages": ["Python (preferred)", "SQL (expert level)"],
+          "expertise": ["Data Engineering"],
+          "technologies": {
+            "databases": ["SQL Server (required)", "Snowflake (plus)"],
+            "frameworks": ["Databricks", "Synapse", "Snowflake", "SQL Server Integration Services (Fabric) (one required)"]
+          }
+        },
+        "skills": {
+          "communication": "English (required)"
+        },
+        "plus_skills": { // Add a section for "plus" skills
+          "programming_languages": ["Python", "Snowflake"],
+          "tools": ["PowerBI", "CI/CD", "DevOps"]
+        }
+      },
+      "contact": {
+        "source": "Allata website description" // Optional field for contact details
+      }
+    }
+  ]
+}
