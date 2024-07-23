@@ -1,6 +1,43 @@
 {
   "profiles": [
     {
+      "company_name": "Eldar Capital Humano",
+      "location": "Hybrid (HQ Parque Patricios, CABA)",
+      "employment_type": "Full-time",
+      "duration": "Permanent",
+      "salary": {
+        "type": "FIXED",
+        "freq": "MONTH",
+        "amount" : "2,5 M",
+        "contract": ["RELACION DE DEPENDENCIA", ""ARG_pesos"],
+        "benefits": [ "POINTS APP FOOD", "POINTS GIFT", "GYM"]
+      },
+      "start_date": "Immediate",
+      "roles": ["DevOps Engineer", "Security Specialist"],
+      "description": "SecureDevOps Inc. is seeking a highly experienced DevOps Engineer / Security Specialist to enhance our CI/CD pipelines, ensure application security through vulnerability scanning and penetration testing, and manage container orchestration and cloud infrastructure.",
+      "requirements": {
+        "backend_experience": {
+          "languages": ["Bash", "Python"],
+          "expertise": ["CI/CD pipeline configuration", "Security best practices", "Containerization and orchestration", "Cloud infrastructure management"],
+          "technologies": {
+            "ci_cd_tools": ["Jenkins", "GitLab"],
+            "security_tools": ["OWASP ZAP", "Burp Suite", "Nessus"],
+            "container_orchestration": ["Docker", "Kubernetes"],
+            "iac_tools": ["Terraform", "Ansible", "CloudFormation"],
+            "cloud_services": ["AWS", "Azure", "Google Cloud Platform"]
+          }
+        },
+        "skills": {
+          "problem_solving": true,
+          "analytical": true,
+          "communication": "English (required)"
+        }
+      },
+      "contact": {
+        "source": "SecureDevOps Inc. Careers Page"
+      }
+    },
+    {
       "company_name": "SiiRA",
       "location": "Fully remote",
       "employment_type": "Contract (full-time)",
